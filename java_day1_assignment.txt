@@ -1,0 +1,16 @@
+Q1:Difference between Compiler and  interpreter?
+Sol: 	A source code or java code after creation will first gets compiled and a byte code will be created 
+        this byte code is interpreted by the java virtual machine(JVM) and create an executable code
+  	Compiler :
+		1: The java compiler compiles the java source code(high level language or human readble)
+	     	     and cretes a .class file known as byte code.	
+		2: While compilation compiler checks for the errors if any error found compile throws an 
+		     error and .class file will not be created.
+		3: This byte code or .class file is portable and platform independent.
+	Interpreter:
+		1: Interpreter is inside the jvm will take the .class file interprets the code to and executable 
+		    or runnable code.
+		2: Interpreter interprets the byte code line by line.
+		3: Inside  jvm we have class loader which loads the class, bytecode verifier which verifies the 
+		    compiled code and a JIT compiler which keeps the track of interpreted code. thus an actuall
+		    runnable machine code is created by the jvm
